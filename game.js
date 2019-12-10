@@ -2,20 +2,21 @@
 var secretNumber = 4;
 
 // Ask user for guess
-var guess = prompt("Guess a number");
+var stringGuess = prompt("Guess a number")
+var guess = Number(stringGuess);
 
 // Check if guess is right
-if(Number(guess) === secretNumber) {
+if(guess === secretNumber) {
   alert("YOU GOT IT RIGHT!");
 }
 
 // Otherwise, check if higher
-else if(Number(guess) > secretNumber) {
+else if(guess > secretNumber) {
 		alert("NOPE, LOWER!");
 	}
 
 // Otherwise, check if lower
-if(Number(guess) < secretNumber) {
+else {
 		alert("NOPE, HIGHER!");
 	}
 	
