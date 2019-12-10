@@ -10,11 +10,9 @@ if(Number(guess) === secretNumber) {
 }
 
 // Otherwise, check if higher
-else {
-	if(Number(guess) > secretNumber) {
+else if(Number(guess) > secretNumber) {
 		alert("NOPE, LOWER!");
 	}
-}
 
 // Otherwise, check if lower
 if(Number(guess) < secretNumber) {
