@@ -9,3 +9,10 @@ var guess = prompt("Guess a number");
 if(Number(guess) === secretNumber) {
   alert("YOU GOT IT RIGHT!");
 }
+
+// Otherwise, you got it wrong
+else {
+	if(Number(guess) != secretNumber) {
+		alert("NOPE!")
+	}
+}
