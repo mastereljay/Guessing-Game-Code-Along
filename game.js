@@ -12,7 +12,5 @@ if(Number(guess) === secretNumber) {
 
 // Otherwise, you got it wrong
 else {
-	if(Number(guess) != secretNumber) {
-		alert("NOPE!")
-	}
+	alert("Wrong!")
 }
