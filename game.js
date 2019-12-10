@@ -6,6 +6,6 @@ var guess = prompt("Guess a number");
 
 // Check if guess is right
 // Added Number() here so that the guess and therefore the secretNumber is identified as a number, not a string
-if(Numger(guess) === secretNumber) {
+if(Number(guess) === secretNumber) {
   alert("YOU GOT IT RIGHT!");
 }
